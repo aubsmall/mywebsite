@@ -1,0 +1,40 @@
+body{
+background-color: #2DA3B5;
+                color: white;
+                font-size: 21px;
+                width: 100vw;
+}
+p{
+               color: #F5517A
+}
+h1{
+               font-size: 50px;
+               color: #black;
+}
+
+/* the css box model*/
+.box{
+               background: pink;
+               width:500px;
+               margin: 100px;
+
+               border-width: 5px;
+               border-color: red;
+               border-style: groove;
+}
+
+
+.columns { display: inline-block;
+}
+
+               img { display:block;
+               padding: 10px;
+width: 200px;}
+
+}
+/* .grid-column: {
+               margin: 5rem auto;
+               width: min(90%, 75rem);
+               display: grid;
+               grid-auto-flow: column;
+} */
